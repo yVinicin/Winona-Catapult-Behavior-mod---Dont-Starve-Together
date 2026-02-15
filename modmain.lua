@@ -20,7 +20,6 @@ local function AlwaysAggressiveRetarget(inst)
     local playertargets = {}
     for _, player in ipairs(GLOBAL.AllPlayers) do
         if player.components.combat and player.components.combat.target ~= nil then
-            -- Salva o alvo do jogador na nossa lista
             playertargets[player.components.combat.target] = true
         end
     end
@@ -84,3 +83,4 @@ AddPrefabPostInit("winona_catapult", function(inst)
         end
     end
 end)
+
