@@ -1,6 +1,6 @@
 name = "Old Winona's Catapult Behavior"
 description = "This mod brings back the old Winona's catapult behavior."
-version = "1.0.0"
+version = "1.0.1"
 author = "y_Vinicin"
 
 api_version = 10
@@ -13,3 +13,4 @@ clients_only_mod = false
 
 icon_atlas = "old_winona_catapult_behavior.xml"
 icon = "old_winona_catapult_behavior.tex"
+
